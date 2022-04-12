@@ -1,0 +1,182 @@
+body {
+  background-color: #0a192f;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  padding: 0 5%;
+  box-sizing: border-box;
+}
+
+.header a {
+  color: #ccd6f6;
+}
+
+.header a:hover {
+  color: #64ffda;
+}
+
+.header-nav {
+  flex-grow: 1;
+}
+
+.header-nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav-ul li {
+  list-style-type: none;
+  font-size: 1vw;
+  font-family: 'SF Mono';
+  letter-spacing: 1px;
+}
+
+.header-nav-ul li span {
+  color: #64ffda;
+}
+
+.main {
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 2%;
+  padding-left: 17%;
+  height: 85vh;
+}
+.introduction h1 {
+  color: #64ffda;
+  font-family: 'SF Mono';
+  font-size: 1vw;
+  font-weight: 400;
+  padding-bottom: 10px;
+  margin: 0 0;
+}
+
+.introduction h2 {
+  color: #ccd6f6;
+  font-family: 'Calibre-Regular';
+  font-size: 5.5vw;
+  margin: 0 0;
+}
+
+.introduction h3 {
+  color: #8892b0;
+  font-family: 'Calibre-Regular';
+  font-size: 5vw;
+  margin: 0 0;
+}
+
+.introduction p {
+  color: #8892b0;
+  font-family: 'Calibre-Regular';
+  font-size: 1.5vw;
+  margin: 10 0 0 0;
+  width: 60%;
+}
+
+.button ul {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  box-sizing: border-box;
+}
+
+.button ul li {
+  width: 100%;
+  list-style-type: none;
+  margin-top: 7%;
+}
+
+.button ul li a {
+  width: 100%;
+  font-family: 'SF Mono';
+  color: #64ffda;
+  font-size: 1vw;
+  border: 1px solid #64ffda;
+  border-radius: 4px;
+  padding: 5% 10%;
+}
+
+.button ul li a:hover {
+  background-color: #133040;
+}
+
+.right-side-fixed {
+  display: flex;
+  flex-direction: colomn;
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 0px 50px;
+}
+.right-side-fixed a {
+  color: #8892b0;
+  font-family: 'SF Mono';
+  font-size: 12px;
+  letter-spacing: 1px;
+  transform: rotate(90deg);
+  transform-origin: top right;
+  padding-right: 20px;
+  /* This is same padding as header.. Not sure how to set it as variable*/
+}
+.vertical-line {
+  border-right: 1px solid green;
+  height: 100px;
+}
+.right-side-fixed a:hover {
+  color: #64ffda;
+}
+.logo-a {
+  /*font-family: "neutral_faceregular";*/
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #75ffff !important;
+  flex-grow: 8;
+}
+
+@font-face {
+  font-family: 'SF Mono';
+  src: url('Fonts/SFMono/SFMono-Regular.woff2') format('woff2'),
+    url('Fonts/SFMono/SFMono-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Mono Bold';
+  src: url('Fonts/SFMono/SFMono-Semibold.woff2') format('woff2'),
+    url('Fonts/SFMono/SFMono-Semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre-Regular';
+  src: url('Fonts/Calibre/Calibre-Regular.woff2') format('woff2'),
+    url('Fonts/Calibre/Calibre-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibre-Medium';
+  src: url('Fonts/Calibre/Calibre-Medium.woff2') format('woff2'),
+    url('Fonts/Calibre/Calibre-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
